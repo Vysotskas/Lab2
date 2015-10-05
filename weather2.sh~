@@ -1,5 +1,0 @@
-#!/bin/bash
-
-wget -q http://meteo.by - O index.html | grep -Po '.[0-9]+ DEGC' |grep -Po '.[0-9]+'
-source config
-sleep  $sleeptime
